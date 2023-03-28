@@ -1,0 +1,50 @@
+*{
+  margin:0;
+  padding: 0;
+  background-color: black;
+}
+
+
+.App{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+}
+
+.Container{
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.Container h1{
+
+  color: aliceblue;
+
+}
+
+.Container .PPbutton{
+
+  margin-top: 3vh;
+  color: aliceblue;
+  border: 2px solid white;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 1vh 2vw;
+  border-radius: 12px;
+
+  transition: .6s;
+
+}
+
+.PPbutton:hover{
+
+  background-color: aliceblue;
+  color: black;
+
+}

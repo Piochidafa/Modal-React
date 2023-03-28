@@ -1,0 +1,75 @@
+
+
+@keyframes desce {
+
+    from{
+
+        transform: translateY(-100vh);
+    
+    }to{
+
+        transform: translateY(0);
+
+    }
+  
+   
+}
+
+.Modal{
+    
+    position: fixed;
+    
+    margin-top: 10vh;
+
+    bottom:1;
+    top: 0;
+    right: 1;
+    left: 1;
+    
+    z-index: 1000;
+    
+    height: 20vh;
+    width: 30vw;
+    
+    border: 2px solid white;
+    border-radius: 2vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation: desce .7s both;
+
+}
+
+.Content{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+
+}
+
+.ModalButton{
+
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid white;
+    padding: 1vh 2vw;
+    border-radius: 15px;
+    cursor: pointer;
+
+    transition: .6s;
+
+}
+
+.ModalButton:hover{
+
+    background-color: aliceblue;
+    color: black;
+
+}
